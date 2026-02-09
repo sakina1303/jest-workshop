@@ -19,8 +19,8 @@ List each test you wrote and briefly explain **what bug or regression it prevent
 
 ---
 
-### 2. Test Name: Invalid Coupon Test
-**What it protects against:**  Verifies that passing an invalid coupon code throws an "Invalid Coupon" error.
+### 2. Test Name: No Coupon & No Discount
+**What it protects against:**  Verifies that when no coupon is applied and subtotal is less than 1000, the amount remains unchanged.
 
 ---
 
@@ -39,7 +39,7 @@ Checks that the coupon "flat50" correctly applies a flat ₹50 discount.
 ### 5. Test Name: 5% Auto Discount (No Coupon, subtotal ≥ 1000)
 **What it protects against:**  
     Ensures a 5% discount is automatically applied when subtotal is 1000 or more without any coupon.
-    
+
 ---
 
 ## CI Pipeline (if implemented)
