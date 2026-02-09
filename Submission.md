@@ -44,7 +44,7 @@ Checks that the coupon "flat50" correctly applies a flat ₹50 discount.
 
 ## CI Pipeline (if implemented)
 - Did CI pass successfully? 
-    yes!
+    Yes!
 - GitHub Actions Run URL:
     https://github.com/sakina1303/jest-workshop/actions/workflows/testing.yml
 
